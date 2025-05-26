@@ -6,26 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio BTS SIO - Prénom Nom</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Portfolio BTS SIO – Prénom NOM</h1>
-        <p>Option SLAM | Session 2025</p>
+    <header class="header">
+        <div class="container">
+            <h1>Portfolio BTS SIO – <span class="highlight">Prénom NOM</span></h1>
+            <p class="subtitle">Option SISR | Session 2024-2026</p>
+        </div>
     </header>
-    <section>
-        <h2>Présentation</h2>
-        <p>Bienvenue sur mon portfolio numérique. Vous y trouverez mon parcours, mes compétences, mon CV ainsi que le tableau de synthèse E5.</p>
-    </section>
-    <section>
-        <h2>Documents à télécharger</h2>
-        <ul>
-            <li><a href="pdf/cv.pdf" download>Télécharger mon CV</a></li>
-            <li><a href="pdf/tableau.pdf" download>Télécharger le tableau de synthèse</a></li>
-        </ul>
-    </section>
-    <section>
-        <h2>Contact</h2>
-        <p>Email : <a href="mailto:exemple@email.com">exemple@email.com</a></p>
-    </section>
+
+    <main class="main-content container">
+        <section class="section">
+            <h2>Présentation</h2>
+            <p>
+                Bienvenue sur mon portfolio numérique. Vous y trouverez mon parcours, mes compétences, mon CV ainsi que le tableau de synthèse E5.
+            </p>
+        </section>
+
+        <section class="section">
+            <h2>Documents à télécharger</h2>
+            <ul class="download-list">
+                <li><a href="pdf/cv.pdf" download class="btn">📄 Télécharger mon CV</a></li>
+                <li><a href="pdf/tableau.pdf" download class="btn">📊 Télécharger le tableau de synthèse</a></li>
+            </ul>
+        </section>
+
+        <section class="section contact">
+            <h2>Contact</h2>
+            <p>Email : <a href="mailto:exemple@email.com">exemple@email.com</a></p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Prénom NOM – Portfolio BTS SIO</p>
+        </div>
+    </footer>
 </body>
 </html>
